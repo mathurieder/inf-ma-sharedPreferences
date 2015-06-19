@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries_list_preference_backgroundcolor">
+        <item>Grün</item>
+        <item>Rot</item>
+        <item>Blau</item>
+    </string-array>
+
+</resources>
