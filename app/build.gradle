@@ -5,7 +5,11 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
+<<<<<<< HEAD
         applicationId "ch.berufsbildungscenter.sharedpreferencedemo"
+=======
+        applicationId "ch.berufsbildungscenter.demosharedpreferences"
+>>>>>>> origin/master
         minSdkVersion 19
         targetSdkVersion 22
         versionCode 1

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<?xml version="1.0" encoding="utf-8"?>
+>>>>>>> origin/master
 <resources>
 
     <!-- Base application theme. -->
@@ -5,4 +9,9 @@
         <!-- Customize your theme here. -->
     </style>
 
+<<<<<<< HEAD
 </resources>
+=======
+
+</resources>
+>>>>>>> origin/master
