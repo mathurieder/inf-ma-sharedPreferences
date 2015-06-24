@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory  android:title="App Settings">
+        <CheckBoxPreference  android:key="activated" android:title="Settings aktivieren?" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Personal Settings ">
+        <EditTextPreference
+            android:key="username"
+            android:title="Username"
+            android:dialogTitle="Username wählen" />
+        <ListPreference
+            android:key="background"
+            android:title="Hintergrund"
+            android:summary="Welche Hintergrundfarbe möchten Sie verwenden?"
+            android:entries="@array/entries_list_preference_backgroundcolor"
+            android:entryValues="@array/entries_list_preference_backgroundcolor"
+            android:dialogTitle="Hintergrund" />
+    </PreferenceCategory>
+</PreferenceScreen>
